@@ -1,0 +1,122 @@
+<!--index.wxml-->
+<view class="container">
+   <view class="carousel-view">
+      <swiper class='carousel' autoplay="true" interval="5000" duration="500" indicator-dots="true">
+         <swiper-item wx:for="{{bannerList}}" wx:key="{{index}}">
+            <image src='{{ item.pic }}' class='carousel-img' bindtap="bannerToActivity" data-item="{{item}}" wx:if="{{!item.isDefault}}"></image>
+         </swiper-item>
+      </swiper>
+   </view>
+   <view class="inform-block">
+     <text class="iconfont icon-tongzhi"></text>
+     <view class="inform-block-left">
+         <view>
+            <view>自提到家现售+常温请勿动B级-青苹果（大）专属商品勿改动</view>
+         </view>
+     </view>
+     <view class="inform-block-right">
+        <view>
+           <text class="iconfont icon-dingwei"></text>
+           去项目
+        </view>
+     </view>
+   </view>
+   <view class="vr">
+      <image src="http://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg" class="vr-img"></image>
+      <button class="vr-btn">城市全景VR</button>
+   </view>
+   <view class="bg-item">
+      <view class="bg-item-title">精彩呈现</view>
+      <view class="item-clomun">
+         <view class="item-row">
+           <image src="http://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg" class="item-row-img left-img"></image>
+           <button class="item-row-btn">效果图</button>
+         </view>
+         <view class="item-row">
+           <image src="//dimg04.c-ctrip.com/images/10070x000000lwxof6B43_C_221_166.jpg" class="item-row-img right-img"></image>
+           <button  class="item-row-btn">效果图</button>
+         </view>
+      </view>
+      <view class="item-clomun"> 
+         <view class="item-row">
+           <image src="http://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg" class="item-row-img left-img"></image>
+           <button class="item-row-btn">效果图</button>
+         </view>
+         <view class="item-row">
+           <image src="//dimg04.c-ctrip.com/images/10070x000000lwxof6B43_C_221_166.jpg" class="item-row-img right-img"></image>
+           <button  class="item-row-btn">效果图</button>
+         </view>
+      </view>
+   </view>
+   <view class="bg-item">
+      <view class="bg-item-title">献礼礼嘉</view>
+      <view class="bg-items">
+         <view class="item1">
+           <image class="item1-img left-img" src="//dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg"></image>
+         </view>
+         <view class="item2 right-img">
+            <view>产品赋能</view>
+         </view>
+      </view>
+      <view class="bg-items">
+         <view class="item2 left-img">
+            <view>品牌赋能</view>
+         </view>
+         <view class="item1">
+           <image class="item1-img right-img" src="//dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg"></image>
+         </view>
+      </view>
+      <view class="bg-items">
+         <view class="item1">
+           <image class="item1-img left-img" src="//dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg"></image>
+         </view>
+         <view class="item2 right-img">
+            <view>物业赋能</view>
+         </view>
+      </view>
+   </view>
+   <view class="bg-item">
+      <view class="bg-item-title">项目介绍</view>
+      <view class="bg-items2">
+         <view class="items2-1">
+           <image class="items2-1-img" src="//dimg01.c-ctrip.com/images/fd/tg/g1/M05/C7/51/CghzflWwsHOAMni3AA2c-FPVxCk836_C_221_166.jpg"></image>
+         </view>
+         <view class="items2-1">
+           <image class="items2-1-img mg-28" src="//dimg01.c-ctrip.com/images/fd/tg/g1/M05/C7/51/CghzflWwsHOAMni3AA2c-FPVxCk836_C_221_166.jpg"></image>
+         </view>
+         <view class="items2-1">
+           <image class="items2-1-img" src="//dimg01.c-ctrip.com/images/fd/tg/g1/M05/C7/51/CghzflWwsHOAMni3AA2c-FPVxCk836_C_221_166.jpg"></image>
+         </view>
+      </view>
+   </view>
+   <view class="share-block">
+      <view class="share-block-container">
+        <view class="share-block-title">分享给朋友</view>
+        <view class="share-block-subtitle">都会自然景 嘉礼时代繁华</view>
+        <view class="share-block-img">
+          <image src="../../sources/imgs/share-01.png" class="share-img"></image>
+        </view>
+        <view class="share-items">
+            <view class="share-item">
+               <view class="share-item-text"><text class="iconfont icon-fenxiang"></text></view>
+               我要分享
+            </view>
+            <view class="share-item">
+              <view class="share-item-text"><text class="iconfont icon-fenxiang"></text></view>
+              生成分享卡片
+            </view>
+            <view class="share-item">
+              <view class="share-item-text"><text class="iconfont icon-yonghuhaoyou"></text></view>
+              我分享的好友
+           </view>
+        </view>
+      </view>
+   </view>
+   <view class="line"></view>
+   <view class="foot">
+      是否同意我们主动联系您？
+      <view class="foot-btn">好的</view>
+   </view>
+   <!--<view class="empty"></view>-->
+   <view class="bottom-btn"><text class="iconfont icon-xiaoxi"></text>快速了解,一对一解答</view>
+</view>
