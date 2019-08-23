@@ -1,0 +1,64 @@
+<view class="project-detail">
+   <view class="detail-img">
+      <image src="../../sources/imgs/banner01.png" class="img"></image>
+   </view>
+   <view class="detail-item">
+      <view class="flex-row">
+         <view class="flex-column">
+           <text class="flex-column-text">占地面积</text>
+           40899 ㎡
+         </view>
+         <view class="flex-column">
+           <text class="flex-column-text">建筑面积</text>
+           70869 ㎡
+         </view>
+      </view>
+      <view class="flex-row">
+         <view class="flex-column">
+           <text class="flex-column-text">占地面积</text>
+           40899 ㎡
+         </view>
+         <view class="flex-column">
+           <text class="flex-column-text">建筑面积</text>
+           70869 ㎡
+         </view>
+      </view>
+      <view class="flex-row">
+         <view class="flex-column">
+           <text class="flex-column-text">占地面积</text>
+           40899 ㎡
+         </view>
+         <view class="flex-column">
+           <text class="flex-column-text">建筑面积</text>
+           70869 ㎡
+         </view>
+      </view>
+
+      <view class="flex-row">
+         <view class="flex-column">
+           <text class="flex-column-text">开发商</text>
+           重庆重庆重庆吉大港啊港行货个昂
+         </view>
+      </view>
+
+      <view class="flex-row">
+         <view class="flex-column">
+           <text class="flex-column-text">物业</text>
+           重庆重庆重庆吉大港啊港行货个昂
+         </view>
+      </view>
+
+      <view class="flex-row no-border">
+         <view class="flex-column">
+           <text class="flex-column-text">物业</text>
+           重庆重庆重庆吉大港啊港行货个昂
+         </view>
+      </view>
+        <view class="flex-row no-border">
+         <view class="flex-column">
+           <text class="flex-column-text">物业</text>
+           重庆重庆重庆吉大港啊港行货个昂
+         </view>
+      </view>
+   </view>
+</view>

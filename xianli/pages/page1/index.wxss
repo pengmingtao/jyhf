@@ -1,0 +1,36 @@
+.page1 {
+    color:#9c9b9e;
+    background-color:#15152a;    
+}
+.page1-banner {
+    height:520rpx;
+    width:100%;
+}
+.img {
+    width:100%;
+    height:100%;
+}
+.page1-content-block {
+    margin:60rpx 100rpx;
+}
+.title {
+    height:200rpx;
+    line-height:200rpx;
+    color:#658f90;
+    font-size:34rpx;
+}
+.content {
+    line-height:50rpx;
+    font-size:26rpx;
+}
+.content-img {
+    width:100%;
+    margin:70rpx 0rpx;
+    height:410rpx;
+}
+.foot-content {
+    padding: 50rpx 100rpx 200rpx 100rpx;
+    font-size:20rpx;
+    line-height:36rpx;
+    color:#605f5f;
+}

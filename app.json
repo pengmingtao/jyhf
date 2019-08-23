@@ -1,12 +1,34 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/map/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#282934",
-    "navigationBarTitleText": "林山郡",
+    "navigationBarTitleText": "金域华府",
     "navigationBarTextStyle": "white"
   },
+  "subPackages": [{
+      "root": "h5",
+      "pages":[
+        "pages/vr/index"
+      ]
+  },{
+      "root":"projectDetail",
+      "pages":[
+          "pages/detail/index"
+      ]
+  },{
+    "root":"projectImg",
+    "pages": [
+      "pages/img/index"
+    ]
+  },{
+    "root":"xianli",
+    "pages":[
+      "pages/page1/index"
+    ]
+  }],
   "sitemapLocation": "sitemap.json"
 }

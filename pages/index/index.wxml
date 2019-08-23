@@ -10,11 +10,19 @@
    <view class="inform-block">
      <text class="iconfont icon-tongzhi"></text>
      <view class="inform-block-left">
-         <view>
-            <view>自提到家现售+常温请勿动B级-青苹果（大）专属商品勿改动</view>
+         <view class="text-carousel">
+            <!--<view>自提到家现售+常温请勿动B级-青苹果（大）专属商品勿改动</view>-->
+            <swiper autoplay="true" interval="5000" duration="500" vertical="true" circular="true" class="swiper2">
+               <swiper-item class="swiper2-item">
+                  <text>自提到家现售+常温请勿动B级-青苹果（大）专属商品勿改动</text>
+               </swiper-item>
+               <swiper-item class="swiper2-item">
+                  <text>+常温请勿动B级-青苹果（大）专属商品勿改动</text>
+               </swiper-item>
+            </swiper>
          </view>
      </view>
-     <view class="inform-block-right">
+     <view class="inform-block-right" bindtap="goMap">
         <view>
            <text class="iconfont icon-dingwei"></text>
            去项目
@@ -23,34 +31,34 @@
    </view>
    <view class="vr">
       <image src="http://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg" class="vr-img"></image>
-      <button class="vr-btn">城市全景VR</button>
+      <button class="vr-btn" bindtap="vedio">楼盘参数</button>
    </view>
    <view class="bg-item">
-      <view class="bg-item-title">精彩呈现</view>
+      <view class="bg-item-title">项目介绍</view>
       <view class="item-clomun">
-         <view class="item-row">
+         <view class="item-row" bindtap="toImg">
            <image src="http://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg" class="item-row-img left-img"></image>
            <button class="item-row-btn">效果图</button>
          </view>
          <view class="item-row">
            <image src="//dimg04.c-ctrip.com/images/10070x000000lwxof6B43_C_221_166.jpg" class="item-row-img right-img"></image>
-           <button  class="item-row-btn">效果图</button>
+           <button  class="item-row-btn">实景图</button>
          </view>
       </view>
       <view class="item-clomun"> 
          <view class="item-row">
            <image src="http://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg" class="item-row-img left-img"></image>
-           <button class="item-row-btn">效果图</button>
+           <button class="item-row-btn">周边配套</button>
          </view>
          <view class="item-row">
            <image src="//dimg04.c-ctrip.com/images/10070x000000lwxof6B43_C_221_166.jpg" class="item-row-img right-img"></image>
-           <button  class="item-row-btn">效果图</button>
+           <button  class="item-row-btn">户型鉴赏</button>
          </view>
       </view>
    </view>
    <view class="bg-item">
-      <view class="bg-item-title">献礼礼嘉</view>
-      <view class="bg-items">
+      <view class="bg-item-title">献礼平昌</view>
+      <view class="bg-items" bindtap="xianli1">
          <view class="item1">
            <image class="item1-img left-img" src="//dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg"></image>
          </view>
@@ -60,22 +68,22 @@
       </view>
       <view class="bg-items">
          <view class="item2 left-img">
-            <view>品牌赋能</view>
+            <view>物业赋能</view>
          </view>
          <view class="item1">
            <image class="item1-img right-img" src="//dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg"></image>
          </view>
       </view>
-      <view class="bg-items">
+      <!--<view class="bg-items">
          <view class="item1">
            <image class="item1-img left-img" src="//dimg01.c-ctrip.com/images/fd/tg/g1/M07/7A/98/CghzfVWwtayAcRE2ABaIuxjYffE235_C_221_166.jpg"></image>
          </view>
          <view class="item2 right-img">
             <view>物业赋能</view>
          </view>
-      </view>
+      </view>-->
    </view>
-   <view class="bg-item">
+   <!--<view class="bg-item">
       <view class="bg-item-title">项目介绍</view>
       <view class="bg-items2">
          <view class="items2-1">
@@ -88,7 +96,7 @@
            <image class="items2-1-img" src="//dimg01.c-ctrip.com/images/fd/tg/g1/M05/C7/51/CghzflWwsHOAMni3AA2c-FPVxCk836_C_221_166.jpg"></image>
          </view>
       </view>
-   </view>
+   </view>-->
    <view class="share-block">
       <view class="share-block-container">
         <view class="share-block-title">分享给朋友</view>

@@ -27,6 +27,16 @@ page {
     color:#f6f9ff;
     font-size:24rpx;
     line-height:36rpx;
+    height: 100rpx;
+}
+.text-carousel {
+    height: 100%;
+}
+.swiper2 {
+    height: 100%;
+}
+.swiper2-item {
+    height: 100%;
 }
 .inform-block-right {
     flex:2;
@@ -90,7 +100,8 @@ page {
     position:absolute;
     bottom:-31rpx;
     left:50%;
-    margin-left:-73rpx;    
+    margin-left:-73rpx;
+    padding:0rpx; 
 }
 .item-row-img {
     height: 100%;

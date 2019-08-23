@@ -1,0 +1,24 @@
+<view class="project-img">
+  <view class="img-block">
+        <swiper class='carousel'>
+            <swiper-item>
+                <image src="http://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg" class="img"> </image>
+            </swiper-item>
+            <swiper-item>
+                <image src="http://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg" class="img"> </image>
+            </swiper-item>
+            <swiper-item>
+                <image src="http://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg" class="img"> </image>
+            </swiper-item>
+        </swiper>
+  </view>
+  <view class="img-index">
+     1/6项目鸟撖图
+  </view>
+  <view class="img-tab">
+     <view class="tab-item active">效果图</view>
+     <view class="tab-item">实景图</view>
+     <view class="tab-item">周边配套</view>
+     <view class="tab-item">户型鉴赏</view>
+  </view>
+</view>

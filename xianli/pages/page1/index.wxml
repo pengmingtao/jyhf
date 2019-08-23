@@ -1,0 +1,22 @@
+<view class="page1">
+    <view class="page1-banner">
+      <image src="http://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg" class="img"></image>
+    </view>
+    <view class="page1-block">
+        <view class="page1-content-block">
+            <view class="title">都会秘境 双圈赋能</view>
+            <view class="content">
+                <text>据了解，HomePod的核心搭载了苹果A8处理器，并配备1GB内存，
+                运行iOS系统，整体配置与iPhone 6手机相似。其在顶部提供了一块272×340分辨率的LED屏幕，
+                能够显示数字、字幕和图案等信息。功能方面支持Siri、Apple Music，可以发送信息，还能根据环境自动调整音质。
+                </text>
+            </view>
+            <view class="content-img">
+                <image src="http://dimg05.c-ctrip.com/images/100r12000000swa1q2CDE_C_221_166.jpg"  class="img"></image>
+            </view>
+        </view>
+        <view class="foot-content">
+            近日苹果发布了一份关于Apple Card正确的清理和存储方式的声明。声明中写道：“如果Apple Card变脏，Apple建议用柔软潮湿的超细纤维布轻轻擦拭。用异丙醇润湿的柔软微纤维布也可用于去除污渍。
+        </view>
+    </view>
+</view>
